@@ -10,9 +10,10 @@
 
         <ImageView
             android:id="@+id/image_view"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/ic_android">
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_local_drink">
 
         </ImageView>
 
@@ -20,8 +21,10 @@
             android:id="@+id/text_view1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Line 1"
-            android:layout_toEndOf="@id/image_view"
+            android:text="商品名稱"
+            android:padding="5dp"
+            android:layout_below="@id/image_view"
+            android:layout_centerHorizontal="true"
             android:textColor="@android:color/black"
             android:textSize="18sp"></TextView>
 
@@ -29,9 +32,21 @@
             android:id="@+id/text_view2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Line 2"
-            android:layout_toEndOf="@id/image_view"
+            android:text="商品介紹:"
+            android:padding="5dp"
             android:layout_below="@+id/text_view1"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品價格:"
+            android:padding="5dp"
+            android:layout_below="@+id/text_view2"
+            android:layout_centerHorizontal="true"
             android:textColor="@android:color/black"
             android:textSize="18sp"></TextView>
 
